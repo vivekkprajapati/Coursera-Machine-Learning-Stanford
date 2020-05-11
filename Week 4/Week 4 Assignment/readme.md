@@ -1,25 +1,25 @@
 # Multi-class Classification and Neural Networks (PROGRAMMING ASSIGNMENT)
 ## Files included in this exercise
-ex2.m - Octave/MATLAB script that steps you through the exercise
+ex3.m - Octave/MATLAB script that steps you through part 1
 
-ex2 reg.m - Octave/MATLAB script for the later parts of the exercise
+ex3 nn.m - Octave/MATLAB script that steps you through part 2
 
-ex2data1.txt - Training set for the first half of the exercise
+ex3data1.mat - Training set of hand-written digits
 
-ex2data2.txt - Training set for the second half of the exercise
+ex3weights.mat - Initial weights for the neural network exercise
 
 submit.m - Submission script that sends your solutions to our servers
 
-mapFeature.m - Function to generate polynomial features
+displayData.m - Function to help visualize the dataset
 
-plotDecisionBoundary.m - Function to plot classifier' decision boundary
+fmincg.m - Function minimization routine (similar to fminunc)
 
-[?] plotData.m - Function to plot 2D classification data
+sigmoid.m - Sigmoid function
 
-[?] sigmoid.m - Sigmoid Function
+[?] lrCostFunction.m - Logistic regression cost function
 
-[?] costFunction.m - Logistic Regression Cost Function
+[?] oneVsAll.m - Train a one-vs-all multi-class classifier
 
-[?] predict.m - Logistic Regression Prediction Function
+[?] predictOneVsAll.m - Predict using a one-vs-all multi-class classifier
 
-[?] costFunctionReg.m - Regularized Logistic Regression Cost
+[?] predict.m - Neural network prediction function
